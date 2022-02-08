@@ -5,6 +5,8 @@ function calcular() {
 
 
 
+
+
   var imc = weigth / heigth ** 2;
 
   if (imc < 18.5) {
