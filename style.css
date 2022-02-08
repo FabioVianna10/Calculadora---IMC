@@ -58,11 +58,14 @@ label{
 button{
 
     border-radius: 15px;
-    font-size: 1em;
+    font-size: 1.2em;
     background-color: #f38910;
     padding: 12px;
     width: 80%;
     height: 45px;
+    color: #fff;
+    font-weight: 500;
+
  
 }
 
