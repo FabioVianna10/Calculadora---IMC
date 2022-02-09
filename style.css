@@ -76,13 +76,27 @@ button{
 
 
 @media(max-width:500px){
+    
+    *{
+        padding:0;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    body{
+        background-color: gray;
+    text-align: center;
+    color: #fff;
+    
+    
+    }
     .container{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 350px;
         height: 350px;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.445);
         margin: auto;
         margin-top:100px;
         border-radius: 25px;
@@ -114,7 +128,7 @@ button{
     }
     
     label{
-        color: #C7FF14;
+        color: #e6ba2b;
         font-weight: 500;
     }
     
@@ -122,10 +136,11 @@ button{
     
         border-radius: 15px;
         font-size: 1em;
-        background-color: #C7FF14;
+        background-color: #f38910;
         padding: 10px;
         width: 80%;
         height: 40px;
+        color: #fff;
      
     }
 
@@ -137,13 +152,28 @@ button{
 
 @media(max-width:399px){
 
+
+    *{
+        padding:0;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    body{
+        background-color: gray;
+    text-align: center;
+    color: #fff;
+    
+    
+    }
+
 .container{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 300px;
         height: 350px;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.445);
         margin: auto;
         margin-top:100px;
         border-radius: 25px;
@@ -175,7 +205,7 @@ button{
     }
     
     label{
-        color: #C7FF14;
+        color: #e6ba2b;
         font-weight: 500;
     }
     
@@ -183,10 +213,11 @@ button{
     
         border-radius: 15px;
         font-size: 1em;
-        background-color: #C7FF14;
+        background-color: #f38910;
         padding: 6px;
         width: 80%;
         height: 50px;
+        color: #fff;
      
     }
 
